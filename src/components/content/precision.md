@@ -1,0 +1,1 @@
+Precision is one of two popular metrics to evaluate a machine learning model (precision and recall). Precision is the ratio between the number of correctly identified elements and the number of correct elements.

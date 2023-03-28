@@ -1,0 +1,1 @@
+A hyperparameter is a machine learning parameter that is defined before training begins.

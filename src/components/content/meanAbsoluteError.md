@@ -1,0 +1,1 @@
+Average variance between predicted and actual values in a dataset.

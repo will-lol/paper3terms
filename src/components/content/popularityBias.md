@@ -1,0 +1,1 @@
+In recommender systems, popularity bias is when a machine learning model recommends a piece of content too much.

@@ -1,0 +1,1 @@
+Overfitting is what occurs when a machine learning model has been trained for too long and begins to find arbitrary correlations in the training data. Overfitted machine learning models to not perform well on real world data because of this.
