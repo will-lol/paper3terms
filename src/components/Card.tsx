@@ -1,6 +1,5 @@
 import "solid-js";
-import { createSignal, JSX, Show } from "solid-js";
-import { Transition } from "solid-transition-group";
+import { createSignal, JSX } from "solid-js";
 
 interface props {
   title: string;

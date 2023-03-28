@@ -2,22 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "EB Garamond";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 400 800;
-  src: url("../../public/fonts/EBGaramond-Italic.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "EB Garamond";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400 800;
-  src: url("../../public/fonts/EBGaramond.woff2") format("woff2");
-}
-
 @layer base {
     @page {
         size: auto;
@@ -25,7 +9,6 @@
     }
     
     html {
-        font-family: "EB Garamond", 'Cormorant Garamond', 'Garamond', Times, serif;
         @apply text-gray-800
     }
 }
