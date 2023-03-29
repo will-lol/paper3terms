@@ -17,4 +17,7 @@
   preserve-3d {
     transform-style: preserve-3d;
   }
+  word-wrap {
+    word-wrap: break-word;
+  }
 }
