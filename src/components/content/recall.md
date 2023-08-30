@@ -1,1 +1,1 @@
-Recall is one of two popular metrics to evaluate a machine learning model (precision and recall). Recall is defined as the ratio number of correctly identified elements to the total number of elements.
+The recall is the ratio of the correct items retrieved out of the total amount of correct items in the dataset.
