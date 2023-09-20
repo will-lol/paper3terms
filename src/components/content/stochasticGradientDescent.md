@@ -3,13 +3,10 @@ In machine learning, gradient descent refers to an “optimising algorithm used 
 
 Gradient descent is used to update the parameters of a model. Parameters such as: linear regression coefficients and weights. 
 
-In optimising a machine learning model we have a **cost function**. In classification, the X axis of the cost function is the parameters of the model and the Y axis is the measure of error or difference between the value that the model predicted and the output. 
+The machine learning algorithm uses a **cost function** to optimise the parameters of the model. The cost function is input the model's output. Its job is to output a number that represents the performance of the model in this instance, lower is better. 
 
-In optimising a model, we would want to minimise the error in our predictions. Gradient descent is a way of finding the minimum on the cost function to find the optimal set of parameters.
+The job of gradient descent is to optimise the cost function to a minimum. But without knowing the mathematical function it is tricky to know the derivative (that would ordinarily be used to find the minimum). The stochastic gradient descent model chooses some random parameters for the model. Then, it slightly modifies the parameters to observe how the model responds. The gradient of the line between these points may be positive or negative. If the gradient between the points responded positively to the algorithm's modification of parameters, it continues modifying the parameters in this way. 
 
-## Make it stochastic!
-By making gradient descent stochastic, we reduce computational burden. 
-Stochastic means random. To make gradient descent stochastic, instead of computing the derivative at many points, we instead compute them at random values of x, vastly reducing the computational burden! 
 ## Things I used
 https://www.ibm.com/topics/gradient-descent
 https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31
